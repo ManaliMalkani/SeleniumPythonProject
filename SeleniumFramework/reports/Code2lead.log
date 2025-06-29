@@ -1,0 +1,228 @@
+29/06/25 07:41:25 PM Sunday - WebDriverClass - INFO : Chrome Driver is initializing
+29/06/25 07:41:26 PM Sunday - BaseClass - ERROR : Web Page not Launched with URL: http://www.dummypoint.com/. Error: 
+29/06/25 07:41:26 PM Sunday - BaseClass - INFO : Wait successful: '//*[@id='sidebar-wrapper']/ul/li[5]/a/span' using 'xpath'
+29/06/25 07:41:26 PM Sunday - BaseClass - INFO : Clicked element: '//*[@id='sidebar-wrapper']/ul/li[5]/a/span' using 'xpath'
+29/06/25 07:41:27 PM Sunday - BaseClass - INFO : Wait successful: 'Form' using 'link'
+29/06/25 07:41:28 PM Sunday - BaseClass - INFO : Clicked element: 'Form' using 'link'
+29/06/25 07:41:28 PM Sunday - BaseClass - INFO : Wait successful: 'reused_form' using 'id'
+29/06/25 07:41:28 PM Sunday - BaseClass - INFO : Element is displayed: 'reused_form' using 'id'
+29/06/25 07:41:33 PM Sunday - BaseClass - INFO : Wait successful: 'name' using 'id'
+29/06/25 07:41:33 PM Sunday - BaseClass - INFO : Sent text: 'Code2Lead' to 'name' using 'id'
+29/06/25 07:41:33 PM Sunday - BaseClass - INFO : Wait successful: 'email' using 'id'
+29/06/25 07:41:33 PM Sunday - BaseClass - INFO : Sent text: 'abc@gmail.com' to 'email' using 'id'
+29/06/25 07:41:33 PM Sunday - BaseClass - INFO : Wait successful: 'message' using 'id'
+29/06/25 07:41:33 PM Sunday - BaseClass - INFO : Sent text: 'This is a Code2Lead' to 'message' using 'id'
+29/06/25 07:41:33 PM Sunday - BaseClass - INFO : Wait successful: 'captcha_image' using 'id'
+29/06/25 07:41:33 PM Sunday - BaseClass - INFO : Got text: 'SGH456' from 'captcha_image' using 'id'
+29/06/25 07:41:33 PM Sunday - BaseClass - INFO : Wait successful: 'captcha' using 'id'
+29/06/25 07:41:33 PM Sunday - BaseClass - INFO : Sent text: 'SGH456' to 'captcha' using 'id'
+29/06/25 07:41:33 PM Sunday - BaseClass - INFO : Wait successful: 'btnContactUs' using 'id'
+29/06/25 07:41:34 PM Sunday - BaseClass - INFO : Scrolled to: 'btnContactUs' using 'id'
+29/06/25 07:41:34 PM Sunday - BaseClass - INFO : Wait successful: 'btnContactUs' using 'id'
+29/06/25 07:41:34 PM Sunday - BaseClass - INFO : Clicked element: 'btnContactUs' using 'id'
+29/06/25 07:54:57 PM Sunday - WebDriverClass - INFO : Chrome Driver is initializing
+29/06/25 07:55:01 PM Sunday - BaseClass - ERROR : Web Page not Launched with URL: http://www.dummypoint.com/. Error: 
+29/06/25 07:55:01 PM Sunday - BaseClass - INFO : Wait successful: '//*[@id='sidebar-wrapper']/ul/li[5]/a/span' using 'xpath'
+29/06/25 07:55:01 PM Sunday - BaseClass - INFO : Clicked element: '//*[@id='sidebar-wrapper']/ul/li[5]/a/span' using 'xpath'
+29/06/25 07:55:01 PM Sunday - BaseClass - INFO : Wait successful: 'Form' using 'link'
+29/06/25 07:55:01 PM Sunday - BaseClass - INFO : Clicked element: 'Form' using 'link'
+29/06/25 07:55:01 PM Sunday - BaseClass - INFO : Wait successful: 'reused_form' using 'id'
+29/06/25 07:55:01 PM Sunday - BaseClass - INFO : Element is displayed: 'reused_form' using 'id'
+29/06/25 07:55:06 PM Sunday - BaseClass - INFO : Wait successful: 'name' using 'id'
+29/06/25 07:55:06 PM Sunday - BaseClass - INFO : Sent text: 'Code2Lead' to 'name' using 'id'
+29/06/25 07:55:32 PM Sunday - BaseClass - ERROR : Element not found during wait: 'emai' using 'id'. Error: Message: 
+Stacktrace:
+0   chromedriver                        0x00000001048e8eb4 cxxbridge1$str$ptr + 2722840
+1   chromedriver                        0x00000001048e0dbc cxxbridge1$str$ptr + 2689824
+2   chromedriver                        0x00000001044323ec cxxbridge1$string$len + 90648
+3   chromedriver                        0x0000000104479544 cxxbridge1$string$len + 381808
+4   chromedriver                        0x00000001044ba934 cxxbridge1$string$len + 649056
+5   chromedriver                        0x000000010446d834 cxxbridge1$string$len + 333408
+6   chromedriver                        0x00000001048abfd0 cxxbridge1$str$ptr + 2473268
+7   chromedriver                        0x00000001048af23c cxxbridge1$str$ptr + 2486176
+8   chromedriver                        0x000000010488da18 cxxbridge1$str$ptr + 2348924
+9   chromedriver                        0x00000001048afaf8 cxxbridge1$str$ptr + 2488412
+10  chromedriver                        0x000000010487eaa8 cxxbridge1$str$ptr + 2287628
+11  chromedriver                        0x00000001048cf9e8 cxxbridge1$str$ptr + 2619212
+12  chromedriver                        0x00000001048cfb74 cxxbridge1$str$ptr + 2619608
+13  chromedriver                        0x00000001048e09f8 cxxbridge1$str$ptr + 2688860
+14  libsystem_pthread.dylib             0x00000001836502e4 _pthread_start + 136
+15  libsystem_pthread.dylib             0x000000018364b0fc thread_start + 8
+
+29/06/25 07:55:32 PM Sunday - BaseClass - ERROR : Text send failed: 'abc@gmail.com' to 'emai' using 'id'. Error: 
+29/06/25 07:55:32 PM Sunday - BaseClass - INFO : Wait successful: 'message' using 'id'
+29/06/25 07:55:32 PM Sunday - BaseClass - INFO : Sent text: 'This is a Code2Lead' to 'message' using 'id'
+29/06/25 07:55:32 PM Sunday - BaseClass - INFO : Wait successful: 'captcha_image' using 'id'
+29/06/25 07:55:32 PM Sunday - BaseClass - INFO : Got text: 'SGH456' from 'captcha_image' using 'id'
+29/06/25 07:55:32 PM Sunday - BaseClass - INFO : Wait successful: 'captcha' using 'id'
+29/06/25 07:55:32 PM Sunday - BaseClass - INFO : Sent text: 'SGH456' to 'captcha' using 'id'
+29/06/25 07:55:32 PM Sunday - BaseClass - INFO : Wait successful: 'btnContactUs' using 'id'
+29/06/25 07:55:33 PM Sunday - BaseClass - INFO : Scrolled to: 'btnContactUs' using 'id'
+29/06/25 07:55:33 PM Sunday - BaseClass - INFO : Wait successful: 'btnContactUs' using 'id'
+29/06/25 07:55:33 PM Sunday - BaseClass - INFO : Clicked element: 'btnContactUs' using 'id'
+29/06/25 07:58:24 PM Sunday - WebDriverClass - INFO : Chrome Driver is initializing
+29/06/25 07:58:25 PM Sunday - BaseClass - ERROR : Web Page not Launched with URL: http://www.dummypoint.com/. Error: 
+29/06/25 07:58:25 PM Sunday - BaseClass - INFO : Wait successful: '//*[@id='sidebar-wrapper']/ul/li[5]/a/span' using 'xpath'
+29/06/25 07:58:26 PM Sunday - BaseClass - INFO : Clicked element: '//*[@id='sidebar-wrapper']/ul/li[5]/a/span' using 'xpath'
+29/06/25 07:58:27 PM Sunday - BaseClass - INFO : Wait successful: 'Form' using 'link'
+29/06/25 07:58:27 PM Sunday - BaseClass - INFO : Clicked element: 'Form' using 'link'
+29/06/25 07:58:27 PM Sunday - BaseClass - INFO : Wait successful: 'reused_form' using 'id'
+29/06/25 07:58:27 PM Sunday - BaseClass - INFO : Element is displayed: 'reused_form' using 'id'
+29/06/25 07:58:32 PM Sunday - BaseClass - INFO : Wait successful: 'name' using 'id'
+29/06/25 07:58:32 PM Sunday - BaseClass - INFO : Sent text: 'Code2Lead' to 'name' using 'id'
+29/06/25 07:58:58 PM Sunday - BaseClass - ERROR : Element not found during wait: 'emai' using 'id'. Error: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000104528eb4 cxxbridge1$str$ptr + 2722840
+1   chromedriver                        0x0000000104520dbc cxxbridge1$str$ptr + 2689824
+2   chromedriver                        0x00000001040723ec cxxbridge1$string$len + 90648
+3   chromedriver                        0x00000001040b9544 cxxbridge1$string$len + 381808
+4   chromedriver                        0x00000001040fa934 cxxbridge1$string$len + 649056
+5   chromedriver                        0x00000001040ad834 cxxbridge1$string$len + 333408
+6   chromedriver                        0x00000001044ebfd0 cxxbridge1$str$ptr + 2473268
+7   chromedriver                        0x00000001044ef23c cxxbridge1$str$ptr + 2486176
+8   chromedriver                        0x00000001044cda18 cxxbridge1$str$ptr + 2348924
+9   chromedriver                        0x00000001044efaf8 cxxbridge1$str$ptr + 2488412
+10  chromedriver                        0x00000001044beaa8 cxxbridge1$str$ptr + 2287628
+11  chromedriver                        0x000000010450f9e8 cxxbridge1$str$ptr + 2619212
+12  chromedriver                        0x000000010450fb74 cxxbridge1$str$ptr + 2619608
+13  chromedriver                        0x00000001045209f8 cxxbridge1$str$ptr + 2688860
+14  libsystem_pthread.dylib             0x00000001836502e4 _pthread_start + 136
+15  libsystem_pthread.dylib             0x000000018364b0fc thread_start + 8
+
+29/06/25 07:58:58 PM Sunday - BaseClass - ERROR : Text send failed: 'abc@gmail.com' to 'emai' using 'id'. Error: 
+29/06/25 08:23:18 PM Sunday - WebDriverClass - INFO : Chrome Driver is initializing
+29/06/25 08:23:20 PM Sunday - BaseClass - ERROR : Web Page not Launched with URL: http://www.dummypoint.com/. Error: 
+29/06/25 08:23:45 PM Sunday - BaseClass - ERROR : Element not found during wait: 'LOCATORS' using 'link'. Error: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000102ea0eb4 cxxbridge1$str$ptr + 2722840
+1   chromedriver                        0x0000000102e98dbc cxxbridge1$str$ptr + 2689824
+2   chromedriver                        0x00000001029ea3ec cxxbridge1$string$len + 90648
+3   chromedriver                        0x0000000102a31544 cxxbridge1$string$len + 381808
+4   chromedriver                        0x0000000102a72934 cxxbridge1$string$len + 649056
+5   chromedriver                        0x0000000102a25834 cxxbridge1$string$len + 333408
+6   chromedriver                        0x0000000102e63fd0 cxxbridge1$str$ptr + 2473268
+7   chromedriver                        0x0000000102e6723c cxxbridge1$str$ptr + 2486176
+8   chromedriver                        0x0000000102e45a18 cxxbridge1$str$ptr + 2348924
+9   chromedriver                        0x0000000102e67af8 cxxbridge1$str$ptr + 2488412
+10  chromedriver                        0x0000000102e36aa8 cxxbridge1$str$ptr + 2287628
+11  chromedriver                        0x0000000102e879e8 cxxbridge1$str$ptr + 2619212
+12  chromedriver                        0x0000000102e87b74 cxxbridge1$str$ptr + 2619608
+13  chromedriver                        0x0000000102e989f8 cxxbridge1$str$ptr + 2688860
+14  libsystem_pthread.dylib             0x00000001836502e4 _pthread_start + 136
+15  libsystem_pthread.dylib             0x000000018364b0fc thread_start + 8
+
+29/06/25 08:23:45 PM Sunday - BaseClass - ERROR : Click failed: 'LOCATORS' using 'link'. Error: 
+29/06/25 08:23:48 PM Sunday - BaseClass - INFO : Wait successful: 'user_input' using 'id'
+29/06/25 08:23:48 PM Sunday - BaseClass - INFO : Sent text: 'Code2Lead' to 'user_input' using 'id'
+29/06/25 08:23:48 PM Sunday - BaseClass - INFO : Wait successful: 'submitbutton' using 'id'
+29/06/25 08:23:48 PM Sunday - BaseClass - INFO : Clicked element: 'submitbutton' using 'id'
+29/06/25 08:24:31 PM Sunday - WebDriverClass - INFO : Chrome Driver is initializing
+29/06/25 08:24:31 PM Sunday - BaseClass - ERROR : Web Page not Launched with URL: http://www.dummypoint.com/. Error: 
+29/06/25 08:24:32 PM Sunday - BaseClass - INFO : Wait successful: '//*[@id='sidebar-wrapper']/ul/li[5]/a/span' using 'xpath'
+29/06/25 08:24:32 PM Sunday - BaseClass - INFO : Clicked element: '//*[@id='sidebar-wrapper']/ul/li[5]/a/span' using 'xpath'
+29/06/25 08:24:57 PM Sunday - BaseClass - ERROR : Element not found during wait: 'LOCATORS' using 'link'. Error: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000102e20eb4 cxxbridge1$str$ptr + 2722840
+1   chromedriver                        0x0000000102e18dbc cxxbridge1$str$ptr + 2689824
+2   chromedriver                        0x000000010296a3ec cxxbridge1$string$len + 90648
+3   chromedriver                        0x00000001029b1544 cxxbridge1$string$len + 381808
+4   chromedriver                        0x00000001029f2934 cxxbridge1$string$len + 649056
+5   chromedriver                        0x00000001029a5834 cxxbridge1$string$len + 333408
+6   chromedriver                        0x0000000102de3fd0 cxxbridge1$str$ptr + 2473268
+7   chromedriver                        0x0000000102de723c cxxbridge1$str$ptr + 2486176
+8   chromedriver                        0x0000000102dc5a18 cxxbridge1$str$ptr + 2348924
+9   chromedriver                        0x0000000102de7af8 cxxbridge1$str$ptr + 2488412
+10  chromedriver                        0x0000000102db6aa8 cxxbridge1$str$ptr + 2287628
+11  chromedriver                        0x0000000102e079e8 cxxbridge1$str$ptr + 2619212
+12  chromedriver                        0x0000000102e07b74 cxxbridge1$str$ptr + 2619608
+13  chromedriver                        0x0000000102e189f8 cxxbridge1$str$ptr + 2688860
+14  libsystem_pthread.dylib             0x00000001836502e4 _pthread_start + 136
+15  libsystem_pthread.dylib             0x000000018364b0fc thread_start + 8
+
+29/06/25 08:24:57 PM Sunday - BaseClass - ERROR : Click failed: 'LOCATORS' using 'link'. Error: 
+29/06/25 08:25:05 PM Sunday - BaseClass - INFO : Wait successful: 'user_input' using 'id'
+29/06/25 08:25:05 PM Sunday - BaseClass - INFO : Sent text: 'Code2Lead' to 'user_input' using 'id'
+29/06/25 08:25:05 PM Sunday - BaseClass - INFO : Wait successful: 'submitbutton' using 'id'
+29/06/25 08:25:05 PM Sunday - BaseClass - INFO : Clicked element: 'submitbutton' using 'id'
+29/06/25 08:25:22 PM Sunday - WebDriverClass - INFO : Chrome Driver is initializing
+29/06/25 08:25:23 PM Sunday - BaseClass - ERROR : Web Page not Launched with URL: http://www.dummypoint.com/. Error: 
+29/06/25 08:25:23 PM Sunday - BaseClass - INFO : Wait successful: '//*[@id='sidebar-wrapper']/ul/li[5]/a/span' using 'xpath'
+29/06/25 08:25:23 PM Sunday - BaseClass - INFO : Clicked element: '//*[@id='sidebar-wrapper']/ul/li[5]/a/span' using 'xpath'
+29/06/25 08:25:23 PM Sunday - BaseClass - INFO : Wait successful: 'Locators' using 'link'
+29/06/25 08:25:23 PM Sunday - BaseClass - INFO : Clicked element: 'Locators' using 'link'
+29/06/25 08:25:25 PM Sunday - BaseClass - INFO : Wait successful: 'user_input' using 'id'
+29/06/25 08:25:25 PM Sunday - BaseClass - INFO : Sent text: 'Code2Lead' to 'user_input' using 'id'
+29/06/25 08:25:25 PM Sunday - BaseClass - INFO : Wait successful: 'submitbutton' using 'id'
+29/06/25 08:25:25 PM Sunday - BaseClass - INFO : Clicked element: 'submitbutton' using 'id'
+29/06/25 09:06:42 PM Sunday - WebDriverClass - INFO : Chrome Driver is initializing
+29/06/25 09:06:43 PM Sunday - BaseClass - ERROR : Web Page not Launched with URL: http://www.dummypoint.com/. Error: 
+29/06/25 09:06:43 PM Sunday - BaseClass - INFO : Wait successful: '//*[@id='sidebar-wrapper']/ul/li[5]/a/span' using 'xpath'
+29/06/25 09:06:43 PM Sunday - BaseClass - INFO : Clicked element: '//*[@id='sidebar-wrapper']/ul/li[5]/a/span' using 'xpath'
+29/06/25 09:06:45 PM Sunday - BaseClass - INFO : Wait successful: 'Form' using 'link'
+29/06/25 09:06:45 PM Sunday - BaseClass - INFO : Clicked element: 'Form' using 'link'
+29/06/25 09:06:45 PM Sunday - BaseClass - INFO : Wait successful: 'reused_form' using 'id'
+29/06/25 09:06:45 PM Sunday - BaseClass - INFO : Element is displayed: 'reused_form' using 'id'
+29/06/25 09:06:50 PM Sunday - BaseClass - INFO : Wait successful: 'name' using 'id'
+29/06/25 09:06:50 PM Sunday - BaseClass - INFO : Sent text: 'Code2Lead' to 'name' using 'id'
+29/06/25 09:07:16 PM Sunday - BaseClass - ERROR : Element not found during wait: 'emai' using 'id'. Error: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000102c48eb4 cxxbridge1$str$ptr + 2722840
+1   chromedriver                        0x0000000102c40dbc cxxbridge1$str$ptr + 2689824
+2   chromedriver                        0x00000001027923ec cxxbridge1$string$len + 90648
+3   chromedriver                        0x00000001027d9544 cxxbridge1$string$len + 381808
+4   chromedriver                        0x000000010281a934 cxxbridge1$string$len + 649056
+5   chromedriver                        0x00000001027cd834 cxxbridge1$string$len + 333408
+6   chromedriver                        0x0000000102c0bfd0 cxxbridge1$str$ptr + 2473268
+7   chromedriver                        0x0000000102c0f23c cxxbridge1$str$ptr + 2486176
+8   chromedriver                        0x0000000102beda18 cxxbridge1$str$ptr + 2348924
+9   chromedriver                        0x0000000102c0faf8 cxxbridge1$str$ptr + 2488412
+10  chromedriver                        0x0000000102bdeaa8 cxxbridge1$str$ptr + 2287628
+11  chromedriver                        0x0000000102c2f9e8 cxxbridge1$str$ptr + 2619212
+12  chromedriver                        0x0000000102c2fb74 cxxbridge1$str$ptr + 2619608
+13  chromedriver                        0x0000000102c409f8 cxxbridge1$str$ptr + 2688860
+14  libsystem_pthread.dylib             0x00000001836502e4 _pthread_start + 136
+15  libsystem_pthread.dylib             0x000000018364b0fc thread_start + 8
+
+29/06/25 09:07:16 PM Sunday - BaseClass - ERROR : Text send failed: 'abc@gmail.com' to 'emai' using 'id'. Error: 
+29/06/25 09:07:22 PM Sunday - WebDriverClass - INFO : Chrome Driver is initializing
+29/06/25 09:07:23 PM Sunday - BaseClass - ERROR : Web Page not Launched with URL: http://www.dummypoint.com/. Error: 
+29/06/25 09:07:23 PM Sunday - BaseClass - INFO : Wait successful: '//*[@id='sidebar-wrapper']/ul/li[5]/a/span' using 'xpath'
+29/06/25 09:07:23 PM Sunday - BaseClass - INFO : Clicked element: '//*[@id='sidebar-wrapper']/ul/li[5]/a/span' using 'xpath'
+29/06/25 09:07:23 PM Sunday - BaseClass - INFO : Wait successful: 'Locators' using 'link'
+29/06/25 09:07:23 PM Sunday - BaseClass - INFO : Clicked element: 'Locators' using 'link'
+29/06/25 09:07:26 PM Sunday - BaseClass - INFO : Wait successful: 'user_input' using 'id'
+29/06/25 09:07:26 PM Sunday - BaseClass - INFO : Sent text: 'Code2Lead' to 'user_input' using 'id'
+29/06/25 09:07:26 PM Sunday - BaseClass - INFO : Wait successful: 'submitbutton' using 'id'
+29/06/25 09:07:26 PM Sunday - BaseClass - INFO : Clicked element: 'submitbutton' using 'id'
+29/06/25 09:15:29 PM Sunday - WebDriverClass - INFO : Chrome Driver is initializing
+29/06/25 09:15:30 PM Sunday - BaseClass - ERROR : Web Page not Launched with URL: http://www.dummypoint.com/. Error: 
+29/06/25 09:15:30 PM Sunday - BaseClass - INFO : Wait successful: '//*[@id='sidebar-wrapper']/ul/li[5]/a/span' using 'xpath'
+29/06/25 09:15:31 PM Sunday - BaseClass - INFO : Clicked element: '//*[@id='sidebar-wrapper']/ul/li[5]/a/span' using 'xpath'
+29/06/25 09:15:32 PM Sunday - BaseClass - INFO : Wait successful: 'Form' using 'link'
+29/06/25 09:15:32 PM Sunday - BaseClass - INFO : Clicked element: 'Form' using 'link'
+29/06/25 09:15:32 PM Sunday - BaseClass - INFO : Wait successful: 'reused_form' using 'id'
+29/06/25 09:15:32 PM Sunday - BaseClass - INFO : Element is displayed: 'reused_form' using 'id'
+29/06/25 09:15:37 PM Sunday - BaseClass - INFO : Wait successful: 'name' using 'id'
+29/06/25 09:15:37 PM Sunday - BaseClass - INFO : Sent text: 'Code2Lead' to 'name' using 'id'
+29/06/25 09:15:37 PM Sunday - BaseClass - INFO : Wait successful: 'email' using 'id'
+29/06/25 09:15:37 PM Sunday - BaseClass - INFO : Sent text: 'abc@gmail.com' to 'email' using 'id'
+29/06/25 09:15:37 PM Sunday - BaseClass - INFO : Wait successful: 'message' using 'id'
+29/06/25 09:15:37 PM Sunday - BaseClass - INFO : Sent text: 'This is a Code2Lead' to 'message' using 'id'
+29/06/25 09:15:37 PM Sunday - BaseClass - INFO : Wait successful: 'captcha_image' using 'id'
+29/06/25 09:15:37 PM Sunday - BaseClass - INFO : Got text: 'SGH456' from 'captcha_image' using 'id'
+29/06/25 09:15:37 PM Sunday - BaseClass - INFO : Wait successful: 'captcha' using 'id'
+29/06/25 09:15:37 PM Sunday - BaseClass - INFO : Sent text: 'SGH456' to 'captcha' using 'id'
+29/06/25 09:15:37 PM Sunday - BaseClass - INFO : Wait successful: 'btnContactUs' using 'id'
+29/06/25 09:15:38 PM Sunday - BaseClass - INFO : Scrolled to: 'btnContactUs' using 'id'
+29/06/25 09:15:38 PM Sunday - BaseClass - INFO : Wait successful: 'btnContactUs' using 'id'
+29/06/25 09:15:38 PM Sunday - BaseClass - INFO : Clicked element: 'btnContactUs' using 'id'
+29/06/25 09:15:43 PM Sunday - WebDriverClass - INFO : Chrome Driver is initializing
+29/06/25 09:15:48 PM Sunday - BaseClass - ERROR : Web Page not Launched with URL: http://www.dummypoint.com/. Error: 
+29/06/25 09:15:48 PM Sunday - BaseClass - INFO : Wait successful: '//*[@id='sidebar-wrapper']/ul/li[5]/a/span' using 'xpath'
+29/06/25 09:15:48 PM Sunday - BaseClass - INFO : Clicked element: '//*[@id='sidebar-wrapper']/ul/li[5]/a/span' using 'xpath'
+29/06/25 09:15:48 PM Sunday - BaseClass - INFO : Wait successful: 'Locators' using 'link'
+29/06/25 09:15:48 PM Sunday - BaseClass - INFO : Clicked element: 'Locators' using 'link'
+29/06/25 09:15:50 PM Sunday - BaseClass - INFO : Wait successful: 'user_input' using 'id'
+29/06/25 09:15:50 PM Sunday - BaseClass - INFO : Sent text: 'Code2Lead' to 'user_input' using 'id'
+29/06/25 09:15:50 PM Sunday - BaseClass - INFO : Wait successful: 'submitbutton' using 'id'
+29/06/25 09:15:51 PM Sunday - BaseClass - INFO : Clicked element: 'submitbutton' using 'id'

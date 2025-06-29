@@ -1,0 +1,8 @@
+[32mINFO    [0m WebDriverClass:DriverClass.py:14 Chrome Driver is initializing
+[31m[1mERROR   [0m BaseClass:BasePage.py:25 Web Page not Launched with URL: http://www.dummypoint.com/. Error:
+[32mINFO    [0m BaseClass:BasePage.py:64 Wait successful: '//*[@id='sidebar-wrapper']/ul/li[5]/a/span' using 'xpath'
+[32mINFO    [0m BaseClass:BasePage.py:78 Clicked element: '//*[@id='sidebar-wrapper']/ul/li[5]/a/span' using 'xpath'
+[32mINFO    [0m BaseClass:BasePage.py:64 Wait successful: 'Form' using 'link'
+[32mINFO    [0m BaseClass:BasePage.py:78 Clicked element: 'Form' using 'link'
+[32mINFO    [0m BaseClass:BasePage.py:64 Wait successful: 'reused_form' using 'id'
+[32mINFO    [0m BaseClass:BasePage.py:122 Element is displayed: 'reused_form' using 'id'

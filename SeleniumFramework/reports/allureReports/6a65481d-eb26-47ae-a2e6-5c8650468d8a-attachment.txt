@@ -1,0 +1,78 @@
+  File "/Users/mamalkani/PycharmProjects/SeleniumPythonProject/.venv/bin/py.test", line 8, in <module>
+    sys.exit(console_main())
+  File "/Users/mamalkani/PycharmProjects/SeleniumPythonProject/.venv/lib/python3.9/site-packages/_pytest/config/__init__.py", line 201, in console_main
+    code = main()
+  File "/Users/mamalkani/PycharmProjects/SeleniumPythonProject/.venv/lib/python3.9/site-packages/_pytest/config/__init__.py", line 175, in main
+    ret: ExitCode | int = config.hook.pytest_cmdline_main(config=config)
+  File "/Users/mamalkani/PycharmProjects/SeleniumPythonProject/.venv/lib/python3.9/site-packages/pluggy/_hooks.py", line 512, in __call__
+    return self._hookexec(self.name, self._hookimpls.copy(), kwargs, firstresult)
+  File "/Users/mamalkani/PycharmProjects/SeleniumPythonProject/.venv/lib/python3.9/site-packages/pluggy/_manager.py", line 120, in _hookexec
+    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+  File "/Users/mamalkani/PycharmProjects/SeleniumPythonProject/.venv/lib/python3.9/site-packages/pluggy/_callers.py", line 121, in _multicall
+    res = hook_impl.function(*args)
+  File "/Users/mamalkani/PycharmProjects/SeleniumPythonProject/.venv/lib/python3.9/site-packages/_pytest/main.py", line 336, in pytest_cmdline_main
+    return wrap_session(config, _main)
+  File "/Users/mamalkani/PycharmProjects/SeleniumPythonProject/.venv/lib/python3.9/site-packages/_pytest/main.py", line 289, in wrap_session
+    session.exitstatus = doit(config, session) or 0
+  File "/Users/mamalkani/PycharmProjects/SeleniumPythonProject/.venv/lib/python3.9/site-packages/_pytest/main.py", line 343, in _main
+    config.hook.pytest_runtestloop(session=session)
+  File "/Users/mamalkani/PycharmProjects/SeleniumPythonProject/.venv/lib/python3.9/site-packages/pluggy/_hooks.py", line 512, in __call__
+    return self._hookexec(self.name, self._hookimpls.copy(), kwargs, firstresult)
+  File "/Users/mamalkani/PycharmProjects/SeleniumPythonProject/.venv/lib/python3.9/site-packages/pluggy/_manager.py", line 120, in _hookexec
+    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+  File "/Users/mamalkani/PycharmProjects/SeleniumPythonProject/.venv/lib/python3.9/site-packages/pluggy/_callers.py", line 121, in _multicall
+    res = hook_impl.function(*args)
+  File "/Users/mamalkani/PycharmProjects/SeleniumPythonProject/.venv/lib/python3.9/site-packages/_pytest/main.py", line 367, in pytest_runtestloop
+    item.config.hook.pytest_runtest_protocol(item=item, nextitem=nextitem)
+  File "/Users/mamalkani/PycharmProjects/SeleniumPythonProject/.venv/lib/python3.9/site-packages/pluggy/_hooks.py", line 512, in __call__
+    return self._hookexec(self.name, self._hookimpls.copy(), kwargs, firstresult)
+  File "/Users/mamalkani/PycharmProjects/SeleniumPythonProject/.venv/lib/python3.9/site-packages/pluggy/_manager.py", line 120, in _hookexec
+    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+  File "/Users/mamalkani/PycharmProjects/SeleniumPythonProject/.venv/lib/python3.9/site-packages/pluggy/_callers.py", line 121, in _multicall
+    res = hook_impl.function(*args)
+  File "/Users/mamalkani/PycharmProjects/SeleniumPythonProject/.venv/lib/python3.9/site-packages/_pytest/runner.py", line 117, in pytest_runtest_protocol
+    runtestprotocol(item, nextitem=nextitem)
+  File "/Users/mamalkani/PycharmProjects/SeleniumPythonProject/.venv/lib/python3.9/site-packages/_pytest/runner.py", line 130, in runtestprotocol
+    rep = call_and_report(item, "setup", log)
+  File "/Users/mamalkani/PycharmProjects/SeleniumPythonProject/.venv/lib/python3.9/site-packages/_pytest/runner.py", line 245, in call_and_report
+    call = CallInfo.from_call(
+  File "/Users/mamalkani/PycharmProjects/SeleniumPythonProject/.venv/lib/python3.9/site-packages/_pytest/runner.py", line 344, in from_call
+    result: TResult | None = func()
+  File "/Users/mamalkani/PycharmProjects/SeleniumPythonProject/.venv/lib/python3.9/site-packages/_pytest/runner.py", line 246, in <lambda>
+    lambda: runtest_hook(item=item, **kwds), when=when, reraise=reraise
+  File "/Users/mamalkani/PycharmProjects/SeleniumPythonProject/.venv/lib/python3.9/site-packages/pluggy/_hooks.py", line 512, in __call__
+    return self._hookexec(self.name, self._hookimpls.copy(), kwargs, firstresult)
+  File "/Users/mamalkani/PycharmProjects/SeleniumPythonProject/.venv/lib/python3.9/site-packages/pluggy/_manager.py", line 120, in _hookexec
+    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+  File "/Users/mamalkani/PycharmProjects/SeleniumPythonProject/.venv/lib/python3.9/site-packages/pluggy/_callers.py", line 121, in _multicall
+    res = hook_impl.function(*args)
+  File "/Users/mamalkani/PycharmProjects/SeleniumPythonProject/.venv/lib/python3.9/site-packages/_pytest/runner.py", line 164, in pytest_runtest_setup
+    item.session._setupstate.setup(item)
+  File "/Users/mamalkani/PycharmProjects/SeleniumPythonProject/.venv/lib/python3.9/site-packages/_pytest/runner.py", line 514, in setup
+    col.setup()
+  File "/Users/mamalkani/PycharmProjects/SeleniumPythonProject/.venv/lib/python3.9/site-packages/_pytest/unittest.py", line 220, in setup
+    super().setup()
+  File "/Users/mamalkani/PycharmProjects/SeleniumPythonProject/.venv/lib/python3.9/site-packages/_pytest/python.py", line 1674, in setup
+    self._request._fillfixtures()
+  File "/Users/mamalkani/PycharmProjects/SeleniumPythonProject/.venv/lib/python3.9/site-packages/_pytest/fixtures.py", line 719, in _fillfixtures
+    item.funcargs[argname] = self.getfixturevalue(argname)
+  File "/Users/mamalkani/PycharmProjects/SeleniumPythonProject/.venv/lib/python3.9/site-packages/_pytest/fixtures.py", line 548, in getfixturevalue
+    fixturedef = self._get_active_fixturedef(argname)
+  File "/Users/mamalkani/PycharmProjects/SeleniumPythonProject/.venv/lib/python3.9/site-packages/_pytest/fixtures.py", line 639, in _get_active_fixturedef
+    fixturedef.execute(request=subrequest)
+  File "/Users/mamalkani/PycharmProjects/SeleniumPythonProject/.venv/lib/python3.9/site-packages/_pytest/fixtures.py", line 1127, in execute
+    result = ihook.pytest_fixture_setup(fixturedef=self, request=request)
+  File "/Users/mamalkani/PycharmProjects/SeleniumPythonProject/.venv/lib/python3.9/site-packages/pluggy/_hooks.py", line 512, in __call__
+    return self._hookexec(self.name, self._hookimpls.copy(), kwargs, firstresult)
+  File "/Users/mamalkani/PycharmProjects/SeleniumPythonProject/.venv/lib/python3.9/site-packages/pluggy/_manager.py", line 120, in _hookexec
+    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+  File "/Users/mamalkani/PycharmProjects/SeleniumPythonProject/.venv/lib/python3.9/site-packages/pluggy/_callers.py", line 121, in _multicall
+    res = hook_impl.function(*args)
+  File "/Users/mamalkani/PycharmProjects/SeleniumPythonProject/.venv/lib/python3.9/site-packages/_pytest/fixtures.py", line 1195, in pytest_fixture_setup
+    result = call_fixture_func(fixturefunc, request, kwargs)
+  File "/Users/mamalkani/PycharmProjects/SeleniumPythonProject/.venv/lib/python3.9/site-packages/_pytest/fixtures.py", line 922, in call_fixture_func
+    fixture_result = next(generator)
+  File "/Users/mamalkani/PycharmProjects/SeleniumPythonProject/SeleniumFramework/tests/conftest.py", line 13, in beforeClass
+    bp.launchWebPage("http://www.dummypoint.com/", "Selenium Template")
+  File "/Users/mamalkani/PycharmProjects/SeleniumPythonProject/SeleniumFramework/base/BasePage.py", line 26, in launchWebPage
+    print_stack()

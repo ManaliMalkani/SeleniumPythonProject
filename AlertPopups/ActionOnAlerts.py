@@ -5,6 +5,7 @@ from selenium.common.exceptions import ElementNotVisibleException, ElementNotSel
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium import webdriver
+from selenium.webdriver.common.alert import Alert
 import time
 
 # Specify the path to chromedriver explicitly
@@ -16,6 +17,7 @@ chrome_options = Options()
 
 driver = webdriver.Chrome(service=service, options=chrome_options)
 
+
 driver.get("http://www.dummypoint.com/Windows.html")
 assert "Selenium Template" in driver.title
 
@@ -23,48 +25,24 @@ wait = WebDriverWait(driver, 25, poll_frequency=1,
                      ignored_exceptions=[ElementNotVisibleException, ElementNotSelectableException,
                                          NoSuchElementException])
 
-# To get the current window name
-window_name = driver.current_window_handle
-print("Before switching ",window_name)
-
+wait.until(ec.presence_of_element_located((By.NAME, 'promtalertb'))).click()
 time.sleep(2)
-# click on popup button to open new window
-ele = driver.find_elements(By.TAG_NAME,"input")
 
-for popup_bs in ele:
-    popup_b = popup_bs.get_attribute("value")
-    if popup_b == "Open a Popup Window2":
-        popup_bs.click()
+# Import Alert class
 
+# Create the object for Alert class
+a_button = Alert(driver)
+
+# Using Alert class object call the methods to " 1. accept or 2. dismiss or 3. send text and get text " in Alert box
 time.sleep(2)
-# Print the list of windows are present on the screen in present session
 
-windows = driver.window_handles
-for window in windows:
-    print(window)
+text_p = a_button.text
+print(text_p)
 
-# switch to required window
-driver.switch_to.window(windows[1])
+a_button.send_keys("Code2Lead")
 
-time.sleep(2)
-window_name = driver.current_window_handle
-print("After switching ",window_name)
-
-driver.maximize_window()
-
-""" 
-Here switching to new window and performing action on frame
-"""
-
-time.sleep(2)
-ele = driver.find_element(By.ID,"f2")
-driver.switch_to.frame(ele)
-
-data = driver.find_element(By.ID,"framename")
-print("Frame Name is : ",data.text)
-
-time.sleep(2)
-driver.close()
+a_button.accept()
+#a_button.dismiss()
 
 
 time.sleep(5)

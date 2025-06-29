@@ -1,0 +1,4 @@
+[32mINFO    [0m BaseClass:BasePage.py:64 Wait successful: 'user_input' using 'id'
+[32mINFO    [0m BaseClass:BasePage.py:92 Sent text: 'Code2Lead' to 'user_input' using 'id'
+[32mINFO    [0m BaseClass:BasePage.py:64 Wait successful: 'submitbutton' using 'id'
+[32mINFO    [0m BaseClass:BasePage.py:78 Clicked element: 'submitbutton' using 'id'
